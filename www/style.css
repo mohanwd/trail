@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0 auto;
+	position:relative;
+}
+.aligNext{
+	position:relative;
+	bottom:682px;
+	background-color:#0F3;
+}
+.aligcourse{
+	position:relative;
+	bottom:0px;
+	background-color:#0F3;
+}
+.aligtraining{
+	position:relative;
+	bottom:317px;
+	background-color:#0F3;
+}
+.aligcareer{
+	position:relative;
+	bottom:150px;
+}
+
+.Header{
+	position:absolute;
+	width:100%;
+	height:105px;
+    background-color:#2c2c2c;	
+}
+
+
+.Introduction{
+	position:absolute;
+	top:95px;
+	height:600px;
+	width:100%;
+	background-color:#3fb1d1;
+}
+.communication_img{
+	position:relative;
+	top:110px;
+	width:244px;
+	height:265px;	
+	transition: background-image 500ms ease-in-out;
+	background-image:url(images/communication.png);
+	background-repeat:no-repeat;	
+}
+.communication_img:hover{
+	background-image:url(images/communication_Hover.png);	
+	
+	
+}
+.formation_img{
+	position:relative;
+	top:-155px;
+	left:265px;
+	width:244px;
+	height:265px;	
+	transition: background-image 500ms ease-in-out;
+	background-image:url(images/formation.png);
+	background-repeat:no-repeat;	
+}
+.formation_img:hover{
+	background-image:url(images/formation_Hover.png);	
+	
+	
+}
+
+.legalIssue_img{
+	position:relative;
+	top:-420px;
+	left:530px;
+	width:245px;
+	height:265px;	
+	transition: background-image 500ms ease-in-out;
+	background-image:url(images/legalissue.png);
+	background-repeat:no-repeat;	
+}
+.legalIssue_img:hover{
+	background-image:url(images/legalissue_Hover.png);	
+	
+	
+}
+
+.facility_img{
+	position:relative;
+	top:-685px;
+	left:795px;
+	width:245px;
+	height:265px;	
+	transition: background-image 500ms ease-in-out;
+	background-image:url(images/facilities.png);
+	background-repeat:no-repeat;	
+}
+.facility_img:hover{
+	background-image:url(images/facilities_hover.png);	
+	
+	
+}
+
+.About{
+	position:absolute;
+	top:695px;
+	height:876px;
+	width:100%;
+	background-color:#575555;
+}
+.secondary{
+	position:absolute;
+	top:1188px;
+	width:100%;
+	height:110px;
+	background-color:#7e7e7e;
+	
+}
+.Courses{
+	position:absolute;
+	top:1571px;
+	height:1304px;
+	width:100%;
+	background-color:#ffffff;	
+}
+.asana_img{
+	position:relative;
+	left:0px;
+	top:170px;
+	width:510px;
+	height:221px;
+	background-image:url(images/asana.png);	
+	
+}
+.googledrive{
+	position:relative;
+	top:-141px;
+	left:468px;
+	width:709px;
+	height:340px;
+	background-image:url(images/googledrive.png);
+
+	
+}
+
+
+.grades{
+	position:relative;
+	top:135px;
+	left:90px;
+	height:204px;
+	width:206px;
+	background-image:url(images/grades.png);
+}
+.grades_text{
+	position:relative;
+	left:348px;
+	top:-25px;
+	height:100px;
+	width:500px;
+	font-family:"Open Sans";
+	font-size:18px;
+	font-weight:normal;
+	color:#575555;
+	line-height:36px;
+}
+.trainers{
+	position:relative;
+	top:83px;
+	left:746px;
+	height:204px;
+	width:206px;
+	background-image:url(images/trainers.png);
+	
+	
+}
+.trainers_text{
+	position:relative;
+	left:283px;
+	top:-73px;
+	height:100px;
+	width:480px;
+	font-family:"Open Sans";
+	font-size:18px;
+	font-weight:normal;
+	color:#575555;
+	line-height:36px;
+	
+}
+.gpa{
+	position:relative;
+	top:83px;
+	left:90px;
+	height:204px;
+	width:206px;
+	background-image:url(images/gpa.png);
+}
+.gpa_text{
+	position:relative;
+	left:400px;
+	top:-106px;
+	height:100px;
+	width:480px;
+	font-family:"Open Sans";
+	font-size:18px;
+	font-weight:normal;
+	color:#575555;
+	line-height:36px;
+
+}
+
+
+.Training{
+	position:absolute;
+	top:2875px;
+	height:824px;
+	width:100%;
+	background-color:#3fb2d1;
+}
+.contract{
+	position:relative;
+	top:150px;
+	width:466px;
+	height:184px;
+	background-image:url(images/contract.png);
+}
+.salary{
+	position:relative;
+	top:-34px;
+	left:522px;
+	width:473px;
+	height:184px;
+	background-image:url(images/salary.png);
+	background-image:
+	
+	
+}
+.Taxes{
+	position:relative;
+	top:0px;
+	width:491px;
+	height:184px;
+	background-image:url(images/taxes.png);
+}
+.timing{
+	position:relative;
+	top:-184px;
+	left:522px;
+	width:487px;
+	height:184px;
+	background-image:url(images/timing.png);
+}
+
+.Career{
+	position:absolute;
+	top:3699px;
+	height:1305px;
+	width:100%;
+	background-color:#575555;
+}
+.manage_img{
+	position:relative;
+	top:140px;
+	width:318px;
+	height:298px;
+	background-image:url(images/management.png);
+	
+	
+}
+.manage_text{
+	position:relative;
+	top:-170px;
+	left:420px;
+	width:469px;
+	height:300px;
+	
+	
+}
+.setup_image{
+	position:relative;
+	left:573px;
+	width:318px;
+	height:298px;
+	background-image:url(images/setup.png);
+	
+		
+	
+}
+.setup_text{
+	position:relative;
+	top:-290px;
+	
+	width:469px;
+	height:300px;
+	
+}
+.blockq{
+	position:relative;
+	top:100px;
+	height:95px;
+	width:1001px;
+	background-image:url(images/blockquote.png)	;
+	
+}
+
+#headi{
+	font-size:30px;
+	line-height:24px;
+	color:#3fb1d1;
+		
+	
+}
+#ouroffice{
+	position:relative;
+	top:45px;
+		
+	
+}
+#topadjust{
+	position:relative;
+	top:65px;
+	line-height:40px;
+	
+	
+}
+
+
+.Footer{
+	position:absolute;
+	top:4965px;
+	height:51px;
+	background-color:#393838;
+	width:100%;	
+	
+}
+
+.inner_container{
+	position:relative;
+	top:10px;
+	width:1036px;
+	margin:0 auto;
+}
+.logo{
+	position:relative;
+	top:10px;
+}
+nav{
+	position:relative;
+	width:800px;
+	top:-40px;
+	left:120px;
+
+}
+li{
+	display:inline;
+}
+	
+li a{
+		text-decoration:none;
+		font-family:"Open Sans";
+		font-size:14px;
+		font-weight:lighter;
+		padding-right:25px;
+	padding-left:25px;
+	padding-top:15px;
+	padding-bottom:15px;
+		color:white;
+}
+li a:hover{
+	color:#3fb1d1;
+	text-decoration:none;
+}
+.iamactive{
+	
+	background-color:#444242;	
+	color:#3fb1d1;
+	text-decoration:none;
+}
+
+
+.title{
+	margin:0 auto;
+	position:relative;
+	top:30px;
+	font-family:"Open Sans";
+	font-weight:bold;
+	font-size:36px;
+	font-variant:small-caps;
+	color:#ffffff;
+	
+}
+.title1{
+	margin:0 auto;
+	position:relative;
+	top:30px;
+	font-family:"Open Sans";
+	font-weight:bold;
+	font-size:36px;
+	font-variant:small-caps;
+	color:#3FB1D1;
+	
+}
+
+.socialplugs{
+position:relative;
+width:150px;
+top:-80px;
+left:860px;
+}
+.wd{
+	position:absolute;
+	width:40px;
+	height:39px;
+	transition: background-image ease-in-out;
+	background-image:url(images/social_WD.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.fb{
+	position:absolute;
+	left:50px;
+	width:40px;
+	height:39px;
+	transition: background-image ease-in-out;
+	background-image:url(images/social_FB.png);
+	cursor:pointer;
+}
+.more{
+	position:absolute;
+	left:100px;
+	width:140px;
+	height:39px;
+	transition: background-image ease-in-out;
+	background-image:url(images/social_More.png);
+	background-repeat:no-repeat;
+}
+.twitter{
+position:absolute;
+left:0px;
+width:40px;
+height:40px;
+background-image:url(images/twitter.png);
+display:none;
+cursor:pointer;
+
+}
+.llin{
+	position:absolute;
+left:52px;
+width:40px;
+height:41px;
+transition: background-image ease-in-out;
+background-image:url(images/in_ico.png);
+background-repeat:no-repeat;
+display:none;
+cursor:pointer;
+}
+.googleplus{
+		position:absolute;
+	left:103px;
+	width:40px;
+	height:41px;
+	transition: background-image ease-in-out;
+	background-image:url(images/google_ico.png);
+	background-repeat:no-repeat;
+	display:none;
+	cursor:pointer;
+}
+
+
+.wd:hover{
+	background-image:url(images/social_WD_MouseOver.png);
+}
+.fb:hover{
+	background-image:url(images/social_FB_MouseOver.png);
+}
+.twitter:hover{
+	
+	background-image:url(images/twi.png);
+}
+.llin:hover{
+	
+	background-image:url(images/in.png);
+}
+.googleplus:hover{
+	background-image:url(images/google.png);
+}
+.para{
+	position:relative;
+	top:60px;
+	font-family:"Open Sans";
+	font-size:16px;
+	font-weight:lighter;
+	color:#575555;	
+	line-height:24px;
+	
+}
+.para1{
+	position:relative;
+	top:70px;
+	font-family:"Open Sans";
+	font-size:18px;
+	font-weight:lighter;
+	color:#575555;	
+	
+}
+.paraWhite{
+	position:relative;
+	padding:0px;
+	top:90px;
+	font-family:"Open Sans";
+	font-size:21px;
+	font-weight:lighter;
+	color:#3fb1d1;	
+	
+}
+.paraThree{
+	position:relative;
+	font-family:"Open Sans";
+	font-weight:lighter;
+	top:23px;
+	font-size:18px;
+	color:#ffffff;
+	line-height:24px;
+	
+}
+.secondaryText{
+	position:relative;
+	font-family:"Open Sans";
+	font-weight:lighter;
+	width:781px;
+	left:147px;
+	top:-7px;
+	font-size:30px;
+	color:#ffffff;
+	line-height:52px;
+	
+}
+#parapa{
+	font-size:18px;
+	line-height:30px;
+		
+}
+#secondPara{
+	
+	top:115px;
+}
+#careertextposition{
+	position:relative;
+	top:-70px;
+	left:0px;
+	width:999px;
+	height:200px;
+	font-weight:normal;
+	line-height:36px;	
+}
+#careertextposition2{
+	position:relative;
+	top:-165px;
+	left:0px;
+	width:999px;
+	height:200px;
+	font-weight:normal;
+	line-height:36px;
+}
+#legallast{
+	position:relative;
+	top:-135px;
+	left:166px;
+	width:663px;
+}
+#legallast1{
+	position:relative;
+	top:-115px;
+}
